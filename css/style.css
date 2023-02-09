@@ -44,7 +44,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: url("./imgs/stars.jpg");
+    background: url("../imgs/stars.jpg");
     background-size: contain;
     /*filter: drop-shadow(0 6mm 9mm black);*/
 }
@@ -90,11 +90,11 @@ div#home__second_img_title h3 {
     text-align: end;
 }
 div#home__first_img_title {
-    background: url(./imgs/background5.jpg);
+    background: url(../imgs/background5.jpg);
     background-size: cover;
 }
 div#home__second_img_title {
-    background: url(./imgs/background8.jpg);
+    background: url(../imgs/background8.jpg);
     height: 500px;
 }
 div#home__img_text {
@@ -172,7 +172,7 @@ main.portfolio {
 }
 /******************** Our team *****************/
 div#our_team_banner {
-    background: url(./imgs/office_background.jpg);
+    background: url(../imgs/office_background.jpg);
 }
 div#our_team_banner h2 {
     height: 450px;
