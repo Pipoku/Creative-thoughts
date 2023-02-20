@@ -1,0 +1,13 @@
+@media (max-width:600px) {
+    /******** Home *********/
+    #home__first_img_title{
+        background-size: inherit;
+    }
+    #home__img_text img {
+        width: 100%;
+    }
+    #home__img_text {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+}

@@ -4,27 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="shortcut icon" href="../imgs/circle-icono.jpg">
     <link rel="stylesheet" href="../css/style.css">
     <title>What we do</title>
 </head>
-<body>
+<body">
     <header>
+        <nav class="navbar navbar-expand-lg navbar-light container ">
         <a href="../index.html">
             <img src="../imgs/vivi.gif" alt="logo" id="img-logo">
         </a>
-        <div class="topnav">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a class="active" href="what-we-do.html">What we do</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./our-team.html">Our team</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+        <button 
+        type="button" 
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation""
+        class="navbar-toggler"
+        >                
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="topnav collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item active"><a class="nav-link active" href="what-we-do.html">What we do</a></li>
+                <li class="nav-item active"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+                <li class="nav-item active"><a class="nav-link" href="./our-team.html">Our team</a></li>
+                <li class="nav-item active"><a class="nav-link" href="./contact.html">Contact</a></li>
             </ul>
         </div>
+    </nav>
     </header>
-    <main class="what_we_do">
-        <div class="what_we_do_sections">
+    <main class="what_we_do container-fluid">
+        <div class="what_we_do_sections row">
             <img src="../imgs/wawedo1.jpg" alt="What we do first">
             <div class="what_we_do_text">
                 <h2>Title</h2>
@@ -32,7 +46,7 @@
             </div>
         </div>
 
-        <div class="what_we_do_sections">
+        <div class="what_we_do_sections row">
             <div class="what_we_do_text">
                 <h2>Title</h2>
                 <p>Nunc at dapibus est. Aenean risus quam, vehicula eu mollis quis, fringilla vel leo. Suspendisse potenti. Ut maximus hendrerit augue sed porttitor. Praesent eu lorem et nisl tincidunt aliquet et eleifend nisi. Nunc faucibus quis lacus eget tincidunt. Proin aliquet venenatis odio, at vulputate erat mollis at. Nam mi nibh, vestibulum sed mi a, luctus ultrices tortor. In maximus odio consectetur tellus lacinia, vel vehicula nisi fringilla. Duis nec est massa. Suspendisse potenti.</p>
@@ -40,7 +54,7 @@
             <img src="../imgs/wawedo2.jpg" alt="What we do second">
         </div>
 
-        <div class="what_we_do_sections">
+        <div class="what_we_do_sections row">
             <img src="../imgs/wawedo3.jpg" alt="What we do third">
             <div class="what_we_do_text">
                 <h2>Title</h2>
@@ -52,5 +66,6 @@
     <footer>
         <p>Copyright 2023 - Page created by <a href="mailto:renzocarletti@hotmail.com">Renzo Carletti</a></p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
