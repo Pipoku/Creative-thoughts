@@ -169,18 +169,6 @@ main.portfolio {
     margin-bottom: 50px;
 }
 
-.games_card img {
-    height: 250px;
-    width: 250px;
-    max-width: 100%;
-    max-height: 100%;
-    padding: 20px;
-}
-.games_card p {
-    width: 250px;
-    max-width: 100%;
-    margin: 0 auto;
-}
 /******************** Our team *****************/
 .our_team {
     padding: 0;
@@ -207,17 +195,19 @@ main.portfolio {
     justify-content: center;
     color: rgb(147, 150, 167);
 }
-.employees {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+
 .employees_card {
     text-align: center;
-    width: 33%;
+}
+.employees .row {
+    margin: 0;
+    gap: 30px;
 }
 .employees_card img {
-    height: 250px;
+    width: 350px;
+    min-height: 150px;
+    max-height: 250px;
+    max-width: 100%;
 }
 .colaborations h2 {
     text-align: center;

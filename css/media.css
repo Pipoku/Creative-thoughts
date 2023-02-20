@@ -10,4 +10,8 @@
         flex-direction: column-reverse;
         width: 100%;
     }
+    /******* Colaborations *******/
+    #colaborations_icons {
+        flex-wrap: wrap;
+    }
 }
