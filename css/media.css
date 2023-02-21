@@ -9,9 +9,29 @@
     #home__img_text {
         flex-direction: column-reverse;
         width: 100%;
+        gap: 50px;
+        margin-top: 10px;
+    }
+    /******* What we do **********/
+    .what_we_do_sections_2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .what_we_do_sections {
+        align-items: center;
+
     }
     /******* Colaborations *******/
     #colaborations_icons {
         flex-wrap: wrap;
+    }
+
+    /******** Form ************/
+    main.contact_page {
+        flex-direction: column;
+        gap: 40px;
+    }
+    input#buttom {
+        margin: 0 auto;
     }
 }

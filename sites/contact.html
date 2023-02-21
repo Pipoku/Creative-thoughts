@@ -45,13 +45,21 @@
         </div>
 
         <form action="" class="contact_form">
-            <input type="text" name="Name" id="" placeholder="Name *">
-            <input type="email" name="Email" id="" placeholder="Email *">
-            <input type="text" name="Subject" id="" placeholder="Subject *">
-            <textarea name="message" id="" cols="30" rows="10">Message ( Optional )</textarea>
-            <div id="contact_form__checkbox">
-                <input type="checkbox" name="Accept" id="checkbox" value="1">
-                <label for="checkbox">Check if you wanna receive our news and searching of employees</label>
+            <div class="mb-2">
+                <input type="text"  class="form-text" name="Name" id="" placeholder="Name *">
+            </div>
+            <div class="mb-2">
+               <input type="email"  class="form-text" name="Email" id="" placeholder="Email *">
+            </div>
+            <div class="mb-2">
+                <input type="text"  class="form-text" name="Subject" id="" placeholder="Subject *">
+            </div>
+            <textarea class="form-control" name="message" id="" cols="30" rows="10">
+                Message ( Optional )
+            </textarea>
+            <div id="contact_form__checkbox mb-3 form-check">
+                <input type="checkbox" class="form-check-input" name="Accept" id="checkbox" value="1">
+                <label class="form-check-label" for="checkbox">Check if you wanna receive our news and searching of employees</label>
             </div>
             <input type="submit" value="Send" id="buttom">
         </form>
