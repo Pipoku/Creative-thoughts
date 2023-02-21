@@ -38,7 +38,9 @@
     font-family: 'Oswald';
     color: grey;
 }
-
+span.navbar-toggler-icon {
+    filter: invert(100%);
+}
 /********************************* HEADER *******************************************/
 body {
     margin: 0;
@@ -168,6 +170,9 @@ main.portfolio {
     text-align: center;
     margin-bottom: 50px;
 }
+.portfolio .row.justify-content-around {
+    gap: 50px;
+}
 
 /******************** Our team *****************/
 .our_team {
@@ -194,6 +199,7 @@ main.portfolio {
     align-items: center;
     justify-content: center;
     color: rgb(147, 150, 167);
+    text-align: center;
 }
 
 .employees_card {
@@ -203,11 +209,16 @@ main.portfolio {
     margin: 0;
     gap: 30px;
 }
+.employees .row.justify-content-center {
+    gap: 50px;
+    margin: 40px 0;
+}
 .employees_card img {
     width: 350px;
     min-height: 150px;
     max-height: 250px;
     max-width: 100%;
+    height: 250px;
 }
 .colaborations h2 {
     text-align: center;
