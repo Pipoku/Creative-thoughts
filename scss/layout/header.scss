@@ -1,0 +1,37 @@
+/********************************* HEADER *******************************************/
+body {
+    margin: 0;
+    background: linear-gradient(360deg, rgba(22,22,22,1) 10%, rgba(0,0,0,1) 100%);
+}
+html {
+    background-color: rgba(22,22,22,1);
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url("../imgs/stars.jpg");
+    background-size: contain;
+}
+img#img-logo {
+    height: 150px;
+    margin: 25px 0 0 0;
+}
+.topnav {
+    ul {
+        gap: 30px;
+        display: flex;
+        border: none;
+        text-decoration: none;
+    }
+    a {
+        color: rgb(147, 150, 167);
+        text-decoration: none;
+        font-weight: 700;
+        &.active {
+            color: purple !important;
+
+        }
+    }
+
+}

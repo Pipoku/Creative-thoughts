@@ -1,0 +1,29 @@
+/******************** What we do **************/
+main.what_we_do {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.what_we_do_text {
+    width: 500px;
+    max-width: 100%;
+    h2 {
+        text-align: center;
+        color: white;
+    }
+}
+
+.what_we_do_sections {
+    display: flex;
+    gap: 100px;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+    img {
+        height: 300px;
+        width: 300px;
+        max-height: 100%;
+    }
+}

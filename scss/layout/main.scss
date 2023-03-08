@@ -1,0 +1,49 @@
+
+/********************* Main *******************/
+main.home {
+    margin-top: -60px;
+    padding: 0;
+}
+#home__first_img_title h3,
+#home__second_img_title h3{
+    width: 65%;
+    margin: 0 auto;
+}
+#home__first_img_title,
+#home__second_img_title {
+    height: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#home__first_img_title h3 {
+    text-align: initial;
+}
+#home__second_img_title h3 {
+    text-align: end;
+}
+#home__first_img_title {
+    background: url(../imgs/background5.jpg);
+    background-size: cover;
+}
+#home__second_img_title {
+    background: url(../imgs/background8.jpg);
+    height: 500px;
+    background-size: cover;
+}
+#home__img_text {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-around;
+    p {
+        width: 300px;
+        max-width: 100%;
+    }
+    img {
+        height: 300px;
+        max-height: 100%;
+    }
+}
