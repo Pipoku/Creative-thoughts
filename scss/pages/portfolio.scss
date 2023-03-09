@@ -7,6 +7,10 @@ main.portfolio {
     gap: 20px;
     text-align: center;
     margin-bottom: 50px;
+    .card {
+        width: 10vw;
+        min-width: 150px;
+    }
 }
 .portfolio .row.justify-content-around {
     gap: 50px;

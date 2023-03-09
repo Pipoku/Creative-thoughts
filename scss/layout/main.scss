@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /********************* Main *******************/
 main.home {
     margin-top: -60px;
@@ -44,6 +48,7 @@ main.home {
     }
     img {
         height: 300px;
+        object-fit: cover;
         max-height: 100%;
     }
 }

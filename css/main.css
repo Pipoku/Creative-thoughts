@@ -1,35 +1,3 @@
-@media (max-width: 600px) {
-  /******** Home *********/
-  #home__first_img_title {
-    background-size: inherit; }
-  #home__img_text img {
-    width: 100%; }
-  #home__img_text {
-    flex-direction: column-reverse;
-    width: 100%;
-    gap: 50px;
-    margin-top: 10px; }
-  /******* What we do **********/
-  .what_we_do_sections_2 {
-    display: flex;
-    flex-direction: column-reverse; }
-  .what_we_do_sections {
-    align-items: center; }
-  /******* Colaborations *******/
-  #colaborations_icons {
-    flex-wrap: wrap; }
-  /******** Form ************/
-  main.contact_page {
-    flex-direction: column;
-    gap: 40px; }
-  input#buttom {
-    margin: 0 auto; } }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 @font-face {
   font-family: "Oswald";
   src: url(/fonts/Oswald-ExtraLight.ttf) format("truetype");
@@ -107,6 +75,11 @@ footer p {
     text-decoration: none;
     color: #6c8893; }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 /********************* Main *******************/
 main.home {
   margin-top: -60px;
@@ -151,6 +124,7 @@ main.home {
     max-width: 100%; }
   #home__img_text img {
     height: 300px;
+    object-fit: cover;
     max-height: 100%; }
 
 /******************** What we do **************/
@@ -188,6 +162,9 @@ main.portfolio {
   gap: 20px;
   text-align: center;
   margin-bottom: 50px; }
+  main.portfolio .card {
+    width: 10vw;
+    min-width: 150px; }
 
 .portfolio .row.justify-content-around {
   gap: 50px; }
@@ -231,7 +208,8 @@ main.portfolio {
   min-height: 150px;
   max-height: 250px;
   max-width: 100%;
-  height: 250px; }
+  height: 250px;
+  object-fit: cover; }
 
 .colaborations h2 {
   text-align: center;
@@ -292,3 +270,32 @@ input.form-text {
 #contact_form__checkbox\ mb-3\ form-check {
   display: flex;
   gap: 10px; }
+
+@media (max-width: 850px) {
+  /******** Home *********/
+  #home__img_text p {
+    text-align: center; }
+  #home__img_text img {
+    width: 100%; }
+  #home__img_text {
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 50px;
+    margin-top: 10px; }
+  #home__first_img_title {
+    background-size: auto; }
+  /******* What we do **********/
+  .what_we_do_sections_2 {
+    display: flex;
+    flex-direction: column-reverse; }
+  .what_we_do_sections {
+    align-items: center; }
+  /******* Colaborations *******/
+  #colaborations_icons {
+    flex-wrap: wrap; }
+  /******** Form ************/
+  main.contact_page {
+    flex-direction: column;
+    gap: 40px; }
+  input#buttom {
+    margin: 0 auto; } }

@@ -1,10 +1,12 @@
-@media (max-width:600px) {
+@media (max-width:850px) {
     /******** Home *********/
-    #home__first_img_title{
-        background-size: inherit;
-    }
-    #home__img_text img {
-        width: 100%;
+    #home__img_text {
+        p {
+            text-align: center;
+        }
+        img {
+             width: 100%;
+        }
     }
     #home__img_text {
         flex-direction: column-reverse;
@@ -12,6 +14,10 @@
         gap: 50px;
         margin-top: 10px;
     }
+    #home__first_img_title {
+        background-size: auto;
+    }
+    
     /******* What we do **********/
     .what_we_do_sections_2 {
         display: flex;
@@ -34,9 +40,4 @@
     input#buttom {
         margin: 0 auto;
     }
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
