@@ -91,7 +91,7 @@ footer p {
     text-decoration: none;
     color: #6c8893; }
 
-.container {
+footer .container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -99,12 +99,12 @@ footer p {
   margin-bottom: 40px;
   height: 60px; }
 
-.icons {
+footer .icons {
   display: flex;
   gap: 30px;
   -webkit-filter: invert(70%);
   filter: invert(70%); }
-  .icons a:hover img {
+  footer .icons a:hover img {
     width: 60px; }
 
 * {

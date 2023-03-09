@@ -6,9 +6,9 @@ footer {
         a {
             text-decoration: none;
             color:#6c8893;
-            }
         }
     }
+    
     .container {
         display: flex;
         justify-content: space-evenly;
@@ -27,6 +27,7 @@ footer {
                 img {
                     width: 60px;
                 }
+            }
         }
     }
 }
