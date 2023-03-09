@@ -36,6 +36,21 @@
 span.navbar-toggler-icon {
   filter: invert(100%); }
 
+p {
+  font-size: 18px; }
+
+a {
+  font-size: 18px; }
+
+h3 {
+  font-size: 24px; }
+
+h2 {
+  font-size: 28px; }
+
+h1 {
+  font-size: 32px; }
+
 /********************************* HEADER *******************************************/
 body {
   margin: 0;
@@ -70,10 +85,27 @@ img#img-logo {
 
 /******************* Footer *******************/
 footer p {
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
   footer p a {
     text-decoration: none;
     color: #6c8893; }
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  height: 60px; }
+
+.icons {
+  display: flex;
+  gap: 30px;
+  -webkit-filter: invert(70%);
+  filter: invert(70%); }
+  .icons a:hover img {
+    width: 60px; }
 
 * {
   margin: 0;
@@ -85,11 +117,6 @@ main.home {
   margin-top: -60px;
   padding: 0; }
 
-#home__first_img_title h3,
-#home__second_img_title h3 {
-  width: 65%;
-  margin: 0 auto; }
-
 #home__first_img_title,
 #home__second_img_title {
   height: 400px;
@@ -97,6 +124,10 @@ main.home {
   display: flex;
   align-items: center;
   justify-content: flex-start; }
+  #home__first_img_title h3,
+  #home__second_img_title h3 {
+    width: 65%;
+    margin: 0 auto; }
 
 #home__first_img_title h3 {
   text-align: initial; }
@@ -284,6 +315,14 @@ input.form-text {
     margin-top: 10px; }
   #home__first_img_title {
     background-size: auto; }
+  /*Footer*/
+  footer .container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 24px;
+    height: auto; }
+  footer .icons {
+    flex-wrap: wrap; }
   /******* What we do **********/
   .what_we_do_sections_2 {
     display: flex;

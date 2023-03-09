@@ -8,11 +8,7 @@ main.home {
     margin-top: -60px;
     padding: 0;
 }
-#home__first_img_title h3,
-#home__second_img_title h3{
-    width: 65%;
-    margin: 0 auto;
-}
+
 #home__first_img_title,
 #home__second_img_title {
     height: 400px;
@@ -20,6 +16,10 @@ main.home {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    h3 {
+        width: 65%;
+        margin: 0 auto;
+    }
 }
 #home__first_img_title h3 {
     text-align: initial;

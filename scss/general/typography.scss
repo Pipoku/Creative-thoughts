@@ -36,3 +36,15 @@
 span.navbar-toggler-icon {
     filter: invert(100%);
 }
+$text-types-font-size: (
+    p: 18px,
+    a: 18px,
+    h3: 24px,
+    h2: 28px,
+    h1: 32px,
+);
+@each $type, $size in $text-types-font-size {
+    #{$type}{
+        font-size: $size;
+    }
+}
