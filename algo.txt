@@ -42,65 +42,92 @@
     <main class="portfolio container"">
         <section class="row">
             <div class="col-lg-4 col-md-6 mb-4">
-                <article class="card h-100">
+                <article class="card">
                     <img src="../imgs/game1.jpg" class="card-img-top mx-auto img-fluid" alt="game1">
                     <div class="card-body">
                     <h5 class="card-title">Adventure</h5>
-                    <p class="card-text">Get ready for an epic journey through immersive worlds filled with mystery, danger, and intrigue. Solve puzzles, make tough choices, and uncover secrets as you explore these unforgettable realms</p>
+                    <p class="card-text">Sed at venenatis dui, ut mattis quam. Praesent iaculis neque sit amet nisl interdum convallis.
+                        Maecenas placerat lobortis nunc sit amet sagittis. Orci varius natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. Maecenas molestie turpis eget eros vehicula ullamcorper.
+                        Aliquam luctus sollicitudin felis ut ultricies. Aliquam id purus vestibulum, luctus felis ut, varius enim.</p>
                     </div>
                 </article>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <article class="card h-100">
+                <article class="card">
                     <img src="../imgs/game2.jpg" class="card-img-top mx-auto img-fluid" alt="game2">
                     <h5 class="card-title">Action</h5>
                     <div class="card-body">
-                    <p>Are you ready for heart-pumping, adrenaline-fueled gameplay that will test your reflexes and push you to your limits? Get your thumbs ready for some of the most intense and satisfying action games out there</p>
+                    <p> Sed at venenatis dui, ut mattis quam. Praesent iaculis neque sit amet nisl interdum convallis.
+                        Maecenas placerat lobortis nunc sit amet sagittis. Orci varius natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. Maecenas molestie turpis eget eros vehicula ullamcorper.
+                        Aliquam luctus sollicitudin felis ut ultricies. Aliquam id purus vestibulum, luctus felis ut, varius enim.
+                    </p>
                     </div>
                 </article>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <article class="card h-100">
+                <article class="card">
                     <img src="../imgs/game3.jpg" class="card-img-top mx-auto img-fluid" alt="game3">
                     <h5 class="card-title">Multiplayer</h5>
                     <div class="card-body">
-                    <p>Whether you're looking to team up with friends or go head-to-head against rivals, our selection of multiplayer games has everything you need. From intense shooters to strategic puzzlers, there's something here for everyone</p>
+                    <p> Sed at venenatis dui, ut mattis quam. Praesent iaculis neque sit amet nisl interdum convallis.
+                        Maecenas placerat lobortis nunc sit amet sagittis. Orci varius natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. Maecenas molestie turpis eget eros vehicula ullamcorper.
+                        Aliquam luctus sollicitudin felis ut ultricies. Aliquam id purus vestibulum, luctus felis ut, varius enim.
+                    </p>
                     </div>
                 </article>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <article class="card h-100">
+                <article class="card">
                     <img src="../imgs/game4.jpg" class="card-img-top mx-auto img-fluid" alt="game4">
                     <h5 class="card-title">Puzzles</h5>
                     <div class="card-body">
-                    <p>Challenge your brain and test your skills with our selection of mind-bending puzzle games. From spatial challenges to logic problems, these games will keep you guessing and coming back for more</p>
+                    <p> Sed at venenatis dui, ut mattis quam. Praesent iaculis neque sit amet nisl interdum convallis.
+                        Maecenas placerat lobortis nunc sit amet sagittis. Orci varius natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. Maecenas molestie turpis eget eros vehicula ullamcorper.
+                        Aliquam luctus sollicitudin felis ut ultricies. Aliquam id purus vestibulum, luctus felis ut, varius enim.
+                    </p>
                     </div>
                 </article>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <article class="card h-100">
+                <article class="card">
                     <img src="../imgs/game5.jpg" class="card-img-top mx-auto img-fluid" alt="game5">
                     <h5 class="card-title">Rogue Like</h5>
                     <div class="card-body">
-                    <p>Prepare for a journey into the unknown as you navigate treacherous dungeons filled with traps, enemies, and deadly secrets. With procedurally generated levels and permadeath, no two playthroughs are ever the same</p>
+                    <p> Sed at venenatis dui, ut mattis quam. Praesent iaculis neque sit amet nisl interdum convallis.
+                        Maecenas placerat lobortis nunc sit amet sagittis. Orci varius natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. Maecenas molestie turpis eget eros vehicula ullamcorper.
+                        Aliquam luctus sollicitudin felis ut ultricies. Aliquam id purus vestibulum, luctus felis ut, varius enim.
+                    </p>
                     </div>
                 </article>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <article class="card h-100">
+                <article class="card">
                     <img src="../imgs/game6.jpg" class="card-img-top mx-auto img-fluid" alt="game6">
                     <h5 class="card-title">Elfic</h5>
                     <div class="card-body">
-                    <p>Enter a world of magic and wonder as you explore fantastical realms filled with elves, wizards, and other mystical creatures. From epic battles to intricate puzzles, there's no shortage of adventure to be had in these enchanted lands</p>
+                    <p> Sed at venenatis dui, ut mattis quam. Praesent iaculis neque sit amet nisl interdum convallis.
+                        Maecenas placerat lobortis nunc sit amet sagittis. Orci varius natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. Maecenas molestie turpis eget eros vehicula ullamcorper.
+                        Aliquam luctus sollicitudin felis ut ultricies. Aliquam id purus vestibulum, luctus felis ut, varius enim.
+                    </p>
                     </div>
                 </article>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <article class="card h-100">
+                <article class="card">
                     <img src="../imgs/game7.jpg" class="card-img-top mx-auto img-fluid" alt="game7">
                     <h5 class="card-title">Souls Like</h5>
                     <div class="card-body">
-                    <p> Brace yourself for some of the most challenging and rewarding gameplay you've ever experienced. With complex combat, punishing difficulty, and deep lore, these games are not for the faint of heart - but for those who dare to take on the challenge, the rewards are truly epic</p>
+                    <p> Sed at venenatis dui, ut mattis quam. Praesent iaculis neque sit amet nisl interdum convallis.
+                        Maecenas placerat lobortis nunc sit amet sagittis. Orci varius natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. Maecenas molestie turpis eget eros vehicula ullamcorper.
+                        Aliquam luctus sollicitudin felis ut ultricies. Aliquam id purus vestibulum, luctus felis ut, varius enim.
+                    </p>
                     </div>
                 </article>
             </div>
