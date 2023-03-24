@@ -8,6 +8,9 @@
              width: 100%;
         }
     }
+    .topnav ul {
+        padding-left: 15px;
+    }
     #home__img_text {
         flex-direction: column-reverse;
         width: 100%;
@@ -39,7 +42,8 @@
     }
     .what_we_do_sections {
         align-items: center;
-
+        gap: 35px;
+        margin: 1rem auto;
     }
     /******* Colaborations *******/
     #colaborations_icons {
@@ -53,5 +57,8 @@
     }
     input#buttom {
         margin: 0 auto;
+    }
+    form.contact_form {
+        padding-bottom: 50px;
     }
 }
